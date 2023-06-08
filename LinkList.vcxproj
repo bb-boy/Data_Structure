@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="BST.cpp" />
     <ClCompile Include="DLinkList.cpp" />
+    <ClCompile Include="Graph.cpp" />
     <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="Queue.cpp" />
     <ClCompile Include="Queue_byLinkList.cpp" />

@@ -62,30 +62,30 @@ BstNode Bst_search(BsTree* root, ElemType e, BstNode &parent) {
 }
 
 
-int main() {
-	BsTree* root;
-	BstNode parent;
-	root = NULL;
-	ElemType c;
-	
-	/*while循环插入操作，当为9999时跳出循环*/
-	while (true) {
-		scanf("%d", &c);
-		if (c == 9999) {        
-			break;
-		}
-		if (insertIntoBST(root, c))
-			printf("插入成功\n");
-		else
-			printf("插入失败\n");
-	}
-
-	BstNode search = Bst_search(root, 3, parent);
-	if (search)
-		printf("找到节点为%d,其父节点为%d", search->data, parent->data);
-	else
-		printf("没有这样的节点");
-	
-
-}
-	
+//int main() {
+//	BsTree* root;
+//	BstNode parent;
+//	root = NULL;
+//	ElemType c;
+//	
+//	/*while循环插入操作，当为9999时跳出循环*/
+//	while (true) {
+//		scanf("%d", &c);
+//		if (c == 9999) {        
+//			break;
+//		}
+//		if (insertIntoBST(root, c))
+//			printf("插入成功\n");
+//		else
+//			printf("插入失败\n");
+//	}
+//
+//	BstNode search = Bst_search(root, 3, parent);
+//	if (search)
+//		printf("找到节点为%d,其父节点为%d", search->data, parent->data);
+//	else
+//		printf("没有这样的节点");
+//	
+//
+//}
+//	
